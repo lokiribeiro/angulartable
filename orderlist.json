@@ -1,0 +1,120 @@
+{
+"orderList":[
+         {
+            "planInternalId":1,
+            "orderInternalId":1,
+            "salesVisitInternalId":1,
+            "merchandiserInternalId":1,
+            "merchandiserId":"userId1",
+            "merchandiserName":"userName1",
+            "orderId":"orderId1",
+            "shopId":"shopId1",
+            "shopName":"shopName1",
+            "locality":"thiruvanmiyur",
+            "shopAddress":"thiruvanmiyur, chennai, tamilnadu",
+            "orderStatus":"OPEN",
+            "orderDate":"24-04-2017",
+            "orderTime":"12:30:00",
+            "orderItemList":[
+               {
+                  "orderItemInternalId":1,
+                  "productInternalId":1,
+                  "productCode":"AR",
+                  "expectedDeliveryDate":"25-04-17",
+                  "orderedQuantity":5,
+                  "deliveredQuantity":3,
+                  "salesOrderItemStatus": "OPEN"
+               },
+               {
+                  "orderItemInternalId":2,
+                  "productInternalId":1,
+                  "productCode":"AR3",
+                  "expectedDeliveryDate":"27-04-17",
+                  "orderedQuantity":5,
+                  "deliveredQuantity":3,
+                  "salesOrderItemStatus": "OPEN"
+               }
+            ],
+            "inventoryList":[
+               {
+                  "inventoryInternalId": 1,
+                  "salesVisitInternalId": 1,
+                  "productInternalId": 1,
+                  "productCode":"AR",
+                  "expiryDate": "23-05-2017",
+                  "quantity": 1
+               },
+               {
+				     "inventoryInternalId": 2,
+                  "salesVisitInternalId":1,
+                  "productInternalId": 1,
+                  "productCode":"AR3",
+                  "expiryDate": "25-05-2017",
+                  "quantity": 1
+               },
+                {
+                  "inventoryInternalId": 3,
+                  "salesVisitInternalId": 1,
+                  "productInternalId": 2,
+                  "productCode":"AP",
+                  "expiryDate": "23-05-2017",
+                  "quantity": 1
+               }
+            ]
+         },
+         {
+            "planInternalId":1,
+            "orderInternalId":2,
+            "salesVisitInternalId":2,
+            "merchandiserInternalId":2,
+            "merchandiserId":"userId2",
+            "merchandiserName":"userName2",
+            "orderId":"orderId2",
+            "shopId":"shopId2",
+            "shopName":"shopName2",
+            "locality":"thiruvanmiyur1",
+            "shopAddress":"thiruvanmiyur1, chennai, tamilnadu",
+            "orderStatus":"PLANNED",
+            "orderDate":"24-04-2017",
+            "orderTime":"12:30:00",
+            "orderItemList":[
+               {
+                  "orderItemInternalId":3,
+                  "productInternalId":2,
+                  "productCode":"AP",
+                  "expectedDeliveryDate":"26-04-17",
+                  "orderedQuantity":5,
+                  "deliveredQuantity":3,
+                  "salesOrderItemStatus": "OPEN"
+               },
+               {
+                  "orderItemInternalId":4,
+                  "productInternalId":2,
+                  "productCode":"AP3",
+                  "expectedDeliveryDate":"29-04-17",
+                  "orderedQuantity":5,
+                  "deliveredQuantity":3,
+                  "salesOrderItemStatus": "OPEN"
+               }
+            ],
+            "inventoryList":[
+               {
+                  "inventoryInternalId": 4,
+                  "salesVisitInternalId": 2,
+                  "productInternalId": 2,
+                  "productCode":"AP",
+                  "expiryDate": "30-05-2017",
+                  "quantity": 1
+               },
+               {
+				      "inventoryInternalId": 5,
+                  "salesVisitInternalId": 2,
+                  "productInternalId": 3,
+                  "productCode":"SR",
+                  "expiryDate": "30-05-2017",
+                  "quantity": 1
+               }
+            ]
+         }
+      ]
+    }
